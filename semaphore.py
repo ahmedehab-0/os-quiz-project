@@ -3,7 +3,7 @@ import time
 
 sem = threading.Semaphore(2)
 
-def worker(name):
+def running(name):
     sem.acquire()
     print(f"{name} entered critical section")
     time.sleep(1)
