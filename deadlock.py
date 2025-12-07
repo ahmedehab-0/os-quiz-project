@@ -1,5 +1,5 @@
 import threading
-
+/
 lock1 = threading.Lock()
 lock2 = threading.Lock()
 
